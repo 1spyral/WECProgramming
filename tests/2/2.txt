@@ -1,0 +1,7 @@
+If you have two servers with different wattages, and you have two tasks of different lengths that are both solvable, 
+test if the program is knowledgeable enough to put the task with longer runtime in the server with lower wattage, to reduce power
+
+
+also, the server has the option to just run both of the tasks consecutively on the server with lower wattage,
+but should it do that? this would increase the # of turns taken to complete the task... which might be bad, depending on how 
+the metrics are implemented (power metric vs turn metric)

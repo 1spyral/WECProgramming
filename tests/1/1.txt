@@ -1,0 +1,19 @@
+Test 1
+
+Purpose:
+
+- 1 server
+- Limited RAM
+- Urgent deadlines
+- Test to see if program sacrifices "bad" tasks to meet deadlines
+
+Intended behaviour:
+
+1,0,4,5,
+2,0,1,1,1
+3,0,1,1,1
+4,0,4,3,6
+5,0,1,1,1
+6,0,1,1,1
+
+Turn 1: Read task 1 and discard it, realizing that it blocks 
